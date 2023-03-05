@@ -8,7 +8,7 @@ abrir();
 
 function timer(){
     
-    tiempo = 600000 + Math.floor(Math.random() * 800000);
+    tiempo = 10000 + Math.floor(Math.random() * 800000);
     console.log(tiempo/(1000*60));
     setTimeout(()=>{
         abrir();
